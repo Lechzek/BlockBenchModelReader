@@ -20,6 +20,7 @@ public record BlockBenchElementImpl(
         @SerializedName("allow_mirror_modeling") boolean allowMirrorModeling,
         @SerializedName("autouv") int autoUv,
         int color,
+        float inflate,
         float[] from,
         float[] to,
         float[] origin,
